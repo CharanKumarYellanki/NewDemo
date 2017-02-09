@@ -1,0 +1,43 @@
+Target:This program finds the probability that x or more users active at the same time for the given number of users(n) where x<=n.
+
+Inputs to the program:
+
+Bandwidth of the link
+Bandwidth requirement of the user
+Total number of users within a network
+The probability that any particular user is idle at a given time
+Target number of users 
+
+Output:
+
+the probability that x or more users active at the same time
+
+Program Structure:
+
+1) fact(int x):
+
+	This function calculates factorial of the number x and returns an integer array
+
+2) Combination(int n, int r):
+
+	This function calculates nCr combination value
+
+3) probability(n, r, p):
+
+	This function calculates the probability of x or more members active within in a network in the same time
+
+4) division(int p[],int q[]):
+
+	This function calculates the division of two integer arrays and returns a double value
+
+5) multiplyTwoDigitArrays(int p[], int q[]):
+	
+	This function returns an array, which is the result of arrays p and q
+
+6) convertNumToArray(int n):
+	This function returns an array, which is the digit array of the number n
+
+Execution:
+
+    After unzipping the tar file, type `make` in command terminal. This will compile all my source files (i.e. probability.cpp).In the next step type `./output` in command terminal, after giving proper inputs, the output will be displayed on the screen.
+
